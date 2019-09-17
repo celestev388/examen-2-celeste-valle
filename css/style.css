@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #777;
+	background-color: #F2F2F2;
+}
+
+.padding-secciones{
+	padding: 80px 0;
+}
+
+#slides h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+#slides h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #EBB576;
+}
+
+#slides p{
+	font-size: 18px;
+}
+
+#slides .carousel-item img{
+	height: 640px;
+}
+
+#slides .carousel-caption{
+	top: 30%;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.titulos{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.subtitulos{
+	font-size: 14px;
+	margin-bottom: 80px;
+}
+
+
+.iconos{
+	font-size: 40px;
+	background-color: #EBB576;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	color: #F2F2F2;
+}
+
+.iconos:hover{
+	color: #000;
+}
+
+.titulos-services{
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.descripcion-about{
+	font-size: 14px;
+}
+
+.imagen-redonda{
+	border-radius: 100px;
+}
+
+.precios{
+	color: #EBB576;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#counter{
+	background-image: url("../img/pattern-1.jpg");
+	posistion: absolute;
+}
+
+.layer-amarilla{
+	background-color: rgba(235,181,118,0.67);
+	position: relative;
+	z-index: 1000;
+	
+}
